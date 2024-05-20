@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Diseño web de Razas caninas </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-headerpi">
+    <nav>
+        <a href="index.html"><img src="images/logoco.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html" >HOME</a></li>
+            <li><a href="about.html" >ABOUT</a></li>
+            <li><a href="course.html" >COURSE</a></li>
+            <li><a href="blog.html" >BLOG</a></li>
+            <li><a href="contact.html" >CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CURSOS</h1>
+    </section>
+    <section class="course">
+        <h1>Cursos que ofrecemos</h1>
+        <p>A Continuación te mostramos cursos que recomendamos</p>
+        <div class="row">
+        <div class="course-col">
+            <h3><a href="https://youtu.be/BACFL9wMiss?si=NP8bf8cpO5k5uN9A" class="hero-btn red-btn">BASICO</a></h3>
+            <p>Este curso busca ofrecer una visiòn basica de los primeros pasos en el adiestramiento canino. Ideal para cachorros</p>
+        </div>
+        <div class="course-col">
+            <h3><a href="https://youtu.be/DAN0BpydpTY?si=G2Q4ddG08chu8iT5" class="hero-btn red-btn">INTERMEDIO</a></h3>
+            <p>En este curso encontraras los fundamentos para afianzar, mejorar y crear nuevas habilidades</p>
+        </div>
+        <div class="course-col">
+            <h3><a href="https://youtu.be/KjiPSm2KW60?si=Q47wGk9o8upfvYvu" class="hero-btn red-btn">AVANZADO</a></h3>
+            <p>Este curso esta hecho para quienes ya tengan experiencia y deseen pulir habilidades o bien desean prepararse para competir</p>
+        </div>
+        </div>
+    </section>
+    <section class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/woRBpEHFE3U?si=92uJ09eK2DidCzt1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Acá les dejamos un video para que puedan ver los resultados de lo que es el adiestramiento</p>
+    </section>
+<section class="footer">
+<h4>About Us</h4>
+<p>Hago esta pagina de prueba, si está mal chupen pico</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>De Juan<i class="fa fa-heart-o"></i>De Corazón</p>
+</section>
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Diseño web de Razas caninas </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-headerca">
+    <nav>
+        <a href="index.html"><img src="images/logoco.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html" >HOME</a></li>
+            <li><a href="about.html" >ABOUT</a></li>
+            <li><a href="course.html" >COURSE</a></li>
+            <li><a href="blog.html" >BLOG</a></li>
+            <li><a href="contact.html" >CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>TIENDA</h1>
+    </section>
+
+<section class="subsub-header">
+    <h1>NUESTRO PRODUCTOS</h1>
+    <p>Hecha un vistazo a nuestros productos para tu mascota</p>
+</section>
+
+<section class="catalogo">
+    <div class="item">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_606024-MLA54761588412_032023-O.webp" alt="Collar con Bandana">
+        <h3>Collar con Bandana</h3>
+        <p>$50</p>
+        <button>COD:BANDANA</button>
+    </div>
+    <div class="item">
+        <img src="https://image.dhgate.com/webp/m/0x0/f2/albu/g16/M01/77/D4/rBVa4F_zRieAdzwHAAEPZv0pXHM498.jpg" alt="Producto 2">
+        <h3>Arnes para perro</h3>
+        <p>$60</p>
+        <button>COD:ARNÉS</button>
+    </div>
+
+
+    <div class="item">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_743617-MLA44273956880_122020-O.webp" alt="Producto 3">
+        <h3>Correas de perros de 3mtrs</h3>
+        <p>$70</p>
+        <button>COD:CORREA</button>
+    </div>
+    <div class="item">
+        <img src="https://m.media-amazon.com/images/I/71CFpdk35IL.jpg" alt="Producto 4">
+        <h3>Pelota para perros</h3>
+        <p>$80</p>
+        <button>COD:PELOTA</button>
+    </div>
+
+</section>
+
+<section class="footer">
+<h4>About Us</h4>
+<p>Hago esta pagina de prueba, si está mal lo corregiré</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>De Juan<i class="fa fa-heart-o"></i>De Corazón</p>
+</section>
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        }
+</script>
+
+</body>
+</html>
